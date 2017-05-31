@@ -21,7 +21,7 @@ Intent intent = new Intent(); // 이미 생성되어 있는 Activity를 사용�
 intent.putExtra("result", "결과값");
 
 // RESULT_OK 는 부모Activity에 이미 정의되어 있는 플래그값으로 처리가 성공적이라는 것을 의미한다
-// setResult 함수는 현재 Activity 에 Intent를 저장하기 때문에 18번줄에서 언급한바와 같이 Context 를 따로 필요로 하지 않는다.
+// setResult 함수는 현재 Activity 에 Intent를 저장하기 때문에  언급한바와 같이 Context 를 따로 필요로 하지 않는다.
 setResult(RESULT_OK, intent); 
 ```
 
